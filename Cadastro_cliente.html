@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastro do cliente</title>
+</head>
+
+<body>
+
+    <style>
+        .asterisco {
+            color: red;
+        }
+        section{
+            text-align: center;
+        }
+    </style>
+    <section>
+        <div>
+            <h2><b>Criar seu cadastro</b></h2>
+            <p>
+                veja seus pedidos de forma fácil, compre mais rápido e tenha uma <br> experiência personalizada :)
+            </p>
+            <p>
+                <span class="asterisco">*</span>
+                campos obrigatórios
+            </p>
+        </div>
+    </section>
+    <section>
+        <form action="/Formulario/index.html" method="post">
+            <div>
+                <span class="asterisco">*</span>
+                <label>Nome completo</label><br>
+                <input type="text" name="
+                username">
+            </div>
+            <br>
+            <div>
+                <span class="asterisco">*</span>
+                <label>gênero</label><br>
+            </div>
+            <div>
+                <span class="text">pra gente te conhecer um pouquinho melhor :)</span>
+            </div>
+            <div>
+                <input type="radio" name="feminine">
+                <span class="text">feminino</span>
+                <input type="radio" name="masculine">
+                <span class="text">masculino</span>
+                <input type="radio" name="do not inform">
+                <span class="text">não informar</span>
+            </div>
+            <br>
+            <div>
+                <span class="asterisco">*</span>
+                <label>dados de nascimento</label><br>
+            </div>
+            <div>
+                <span class="text">necessário para identificar a maioridade, no formato DD/MM/AAAA</span><br>
+            </div>
+            <div>
+                <input placeholder="__/__/____" type="tel" name="date of birth" maxlength="8" autocorrect="off">
+            </div>
+            <br>
+            <div>
+                <span class="asterisco">*</span>
+                <label>CPF</label><br>
+            </div>
+            <div>
+                <span class="text">necessário pra emissão das Notas Fiscais</span>
+            </div>
+            <div>
+                <input placeholder="___.___.___-__" type="tel" name="CPF" maxlength="14" autocorrect="off">
+            </div>
+            <br>
+            <div>
+                <a href="https://cliente.americanas.com.br/minha-conta/cadastro " class="fonte">
+                    <span>é uma pessoa jurídica?</span>
+                    <span>conheça a americanas empresas</span>
+                </a>
+            </div>
+            <br>
+            <div>
+                <span class="asterisco">*</span>
+                <label>telefone</label><br>
+            </div>
+            <div>
+                <span class="text">caso a gente precisa entrar em contato sobre seus pedidos</span>
+            </div>
+            <div>
+                <input type="tel" name="phone" maxlength="14" autocorrect="off" placeholder="(__) _____-____">
+            </div><br>
+            <div>
+                <input type="checkbox" name="notification_whatsapp" id="">
+                <label>recebendo notificações por whatsapp</label>
+
+            </div>
+            <br>
+            <div>
+                <span class="asterisco">*</span>
+                <labe>senha</label>
+            </div>
+            <div>
+                <span class="text">precisa ter entre 6 a 20 caracteres</span>
+            </div>
+            <br>
+            <div>
+                <input placeholder="Senha" type="password" name="user password">
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" name="share data">
+                <span class="text"> Compartilhar meus dados com parceiros para ter <br> conteúdos personalizados, veja
+                    <a href="https://www.americanas.com.br/hotsite/politica-de-privacidade" target="_blank"> como
+                        funciona. </a> </span>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Criar seu cadastro</button>
+            </div>
+            <br>
+        </form>
+
+        <div class="politica Privacidade">
+            <p>Não se preocupe nosso site é seguro! Ao criar o seu cadastro, <br> você concorda com a nossa <a
+                    href="/politica_privacidade.html">Politica de Privacidade</a></p>
+        </div>
+
+        <div class="cadastro existente">
+            <p>
+                já tem cadastro? <a href="https://cliente.americanas.com.br/simple-login/"
+                    class="sc-jfBFna hbTyeB">Entrar</a>
+            </p>
+        </div>
+    </section>
+
+</body>
+
+</html>
