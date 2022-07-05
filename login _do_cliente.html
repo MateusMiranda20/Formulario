@@ -11,17 +11,42 @@
 <body>
 
     <style>
-        .text{
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .text {
             padding: 30px;
         }
-        section{
+
+        section {
             text-align: center;
+            padding: 90px;
+        }
+
+        header {
+            background-color: red;
+            width: 100%;
+            position: fixed;
+            height: 10px;
+            left: 0;
+            top: 0;
+            padding: 30px;
+        }
+        .cabecalho{
+            padding: 0;
+            margin: 0;
+        }
+
+        img {
+           margin-bottom:10px ;
         }
     </style>
 
     <header>
         <div class="cabecalho">
-            <img src="https://d119kxa4ljimqi.cloudfront.net/224x/images/a/americanas.png" alt="logo-americanas" width="200">
+            <img src="img/americanas.png" alt="logo-americanas" width="120">
         </div>
     </header>
     <section>
@@ -38,8 +63,8 @@
             <input type="email" placeholder="Ex. mateusmi@gmail.com" name="email-usuario"><br>
             <br>
             <label>Senha na americanas:</label>
-            <span class="text" >esqueceu?</span><br>
-            <input type="password" name="senha-email" maxlength="14" ><br>
+            <span class="text">esqueceu?</span><br>
+            <input type="password" name="senha-email" maxlength="14"><br>
             <br>
             <button type="submit">Contuinuar</button>
             <br>
@@ -47,7 +72,8 @@
                 não tem cadastro? <a href="/Cadastro_cliente.html">cadastre-se</a>
             </p>
             <p>
-                Ao continuar com o acesso, você concorda com a <br> nossa <a href="/politica_privacidade.html">política de privacidade</a>
+                Ao continuar com o acesso, você concorda com a <br> nossa <a href="/politica_privacidade.html">política
+                    de privacidade</a>
             </p>
         </form>
     </section>
